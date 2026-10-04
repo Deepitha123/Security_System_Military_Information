@@ -1,0 +1,78 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================
+# Virtual environment
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+.env.*
+*.key
+*.pem
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+
+# ==============================
+# Test / generated uploads
+# ==============================
+
+uploads/
+outputs/
+
+# ==============================
+# Python packaging
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Keep project model/data artifacts tracked
+# ==============================
+# The trained model and dashboard CSV files are intentionally NOT ignored,
+# because they are required to reproduce the dashboard.
